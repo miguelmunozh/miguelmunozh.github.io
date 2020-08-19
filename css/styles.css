@@ -458,7 +458,7 @@ h1:before{
   background-attachment: fixed;
 }
 #resume{
-  width: 80%;
+  width: 70%;
   margin: auto;
   display: flex;
   flex-direction: column-reverse;
@@ -468,7 +468,11 @@ h1:before{
   padding-top: 20px;
 }
 #resume h2{
+  padding-top: 20px;
   color:black;
+}
+#resume hr{
+  margin-top: 20px;
 }
 #resume h4{
   text-transform: capitalize;
