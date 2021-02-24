@@ -382,25 +382,6 @@ filter: hue-rotate(-70deg);
 /*headers edition*/
 /*headers edition*/
 /*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
-/*headers edition*/
 h1{
   width: 100%;
   display: flex;
@@ -496,24 +477,6 @@ h1:before{
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* FOR DESKTOP VERSIONS*/
-/* FOR DESKTOP VERSIONS*/
 /* FOR DESKTOP VERSIONS*/
 /* FOR DESKTOP VERSIONS*/
 /* FOR DESKTOP VERSIONS*/
@@ -522,7 +485,7 @@ h1:before{
         max-width: 2350px;
       }
       header{
-        height: 50vh;
+        height: 40vh;
         background-image: url("../images/a.png");
         background-size: 100% 50%;
         background-position: top;
@@ -664,17 +627,6 @@ h1:before{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 footer a {
   position: relative;
 }
@@ -696,10 +648,4 @@ footer a {
       left: 80%;
       margin-left: 20px;
       }
-
-
-
-
-
-
 }
