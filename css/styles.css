@@ -17,7 +17,8 @@
  /*
  similar color to the background image
  background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(216, 130, 246, 0.50));*/
-   /*width: 1650px;*/
+   /*width: 1650px;
+   */
 }
  ::selection{
    background-color: rgba(110, 46, 149, 0.48);
@@ -46,7 +47,7 @@
 #go-back-btn{
 }
 
- /* LANDPAGE CSS SECTION */
+ /* Index */
 
   .homepage{
     overflow: hidden;
@@ -55,7 +56,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url("../images/copy2.jpg");
+    background-image: url("../images/indx.jpg");
     /* background-repeat: no-repeat; */
     background-position: center;
     background-size: 110% 110%;
