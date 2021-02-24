@@ -10,15 +10,8 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
   <!-- Add fancyBox -->
-  <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
-  <script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.7"></script>
-  <!-- Optionally add helpers - button, thumbnail and/or media -->
-  <link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-  <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-  <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-
-  <link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-  <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 </head>
 
@@ -47,9 +40,7 @@
 
     <section id="gallery">
       <div id="Gallery-image">
-        <a class="fancybox" rel="group" href="images/c.jpg">
-          <img src="images/c.jpg" alt="" />
-        </a>
+<a data-fancybox="gallery" href="images/c.jpg"><img src="images/c.jpg"></a>
         <hr>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
@@ -90,19 +81,7 @@
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="js/javascript.js"> </script>
-  <script type="text/javascript">
-  	$(document).ready(function() {
-  		$(".fancybox").fancybox({
-        helpers : {
-        overlay : {
-            css : {
-                'background' : 'rgba(58, 42, 45, 0.95)'
-            }
-        }
-    }
-      });
-  	});
-  </script>
+
 </body>
 
 </html>
