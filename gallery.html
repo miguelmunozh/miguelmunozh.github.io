@@ -9,7 +9,9 @@
   <script src="js/jquery-3.3.1.min.js"></script>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <!-- Add fancyBox -->
+  <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
+  <script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.7"></script>
 
 
 </head>
@@ -39,9 +41,11 @@
 
     <section id="gallery">
       <div id="Gallery-image">
-        <a data-fancybox="gallery" href="flower-banner1.jpg" src="images/flower-banner1.jpg">
-          <img src="images/c.jpg" alt="">
-        </a>
+
+        <a class="fancybox" rel="group" href="images/c.jpg">
+          <img src="images/c.jpg" alt="" /></a>
+
+
         <hr>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
@@ -82,7 +86,11 @@
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="js/javascript.js"> </script>
-
+  <script type="text/javascript">
+  	$(document).ready(function() {
+  		$(".fancybox").fancybox();
+  	});
+  </script>
 </body>
 
 </html>
